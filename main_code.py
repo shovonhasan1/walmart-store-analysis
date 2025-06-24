@@ -17,7 +17,6 @@ def main():
     print("\n  Preview of the clustered results:\n")
     print(clustered_df.head())
 
-    # Save to Excel
     clustered_df.to_excel("store_sensitivity_clustered.xlsx", index=False)
 
 if __name__ == "__main__":
